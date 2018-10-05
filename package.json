@@ -1,0 +1,14 @@
+{
+  "name": "javascript-style-guide",
+  "version": "1.0.0",
+  "description": "Javascript style guide",
+  "main": "index.js",
+  "repository": "https://github.com/Terminal-Systems/javascript-style-guide",
+  "author": "Daniel Merrill <danielmerrill6@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

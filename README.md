@@ -1,4 +1,4 @@
-# Javascript Style Guide
+# Terminal's Javascript Style Guide
 
 ## Motivation
 
@@ -24,9 +24,11 @@ module.exports = {
 
 3. Finally, install the eslint plugin for your text editor. [This is the package in the case of VS Code](https://github.com/Microsoft/vscode-eslint). Restart your editor after installing it. It should display red lines under any non-compliant code.
 
+Note: This project has everything installed and you can just fork/clone it to use it as a base for other javascript projects.
+
 ## "But it's too much work to comply to all these standards >:("
 
-Worry no more! You can make your editor auto-correct your offenses after each save.
+Worry no more! You can make your editor auto-fix your offenses after each save.
 
 ### Instructions for VS Code
 
