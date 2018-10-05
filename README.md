@@ -10,6 +10,8 @@ Airbnb devs did a very detailed style guide for their javascript projects. [You 
 
 ## How to install it into your projects
 
+### For plain Javascript / Node projects
+
 1. Run the following command to add the required packages:
 
 `yarn add -D eslint eslint-config-airbnb-base eslint-plugin-import`
@@ -25,6 +27,22 @@ module.exports = {
 3. Finally, install the eslint plugin for your text editor. [This is the package in the case of VS Code](https://github.com/Microsoft/vscode-eslint). Restart your editor after installing it. It should display red lines under any non-compliant code.
 
 Note: This project has everything installed and you can just fork/clone it to use it as a base for other javascript projects.
+
+### For React projects
+
+1. Run the following command to add the required packages:
+
+`yarn add -D eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react`
+
+2. Then, create a file called `.eslintrc.js` in the root folder of your project and add the following code:
+
+```
+module.exports = {
+    "extends": "airbnb"
+};
+```
+
+3. Finally, install the eslint plugin for your text editor. [This is the package in the case of VS Code](https://github.com/Microsoft/vscode-eslint). Restart your editor after installing it. It should display red lines under any non-compliant code.
 
 ## "But it's too much work to comply to all these standards >:("
 
